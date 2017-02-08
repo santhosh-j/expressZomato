@@ -1,0 +1,12 @@
+[02 02 2017 10:57:34.329] [DEBUG] - Inside user post
+[02 02 2017 11:28:24.607] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
+[02 02 2017 11:28:35.410] [DEBUG] - Inside user post
+[02 02 2017 11:28:43.015] [DEBUG] - Inside user post
+[02 02 2017 11:28:56.243] [DEBUG] - Mongoose is now disconnected..!
+[02 02 2017 11:30:39.231] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
+[02 02 2017 11:30:46.065] [DEBUG] - Inside user post
+[02 02 2017 11:31:00.400] [DEBUG] - Inside user post
+[02 02 2017 11:31:04.435] [DEBUG] - Mongoose is now disconnected..!
+[02 02 2017 11:44:55.490] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
+[02 02 2017 11:46:49.509] [DEBUG] - Inside user post
+[02 02 2017 11:46:58.621] [DEBUG] - Mongoose is now disconnected..!

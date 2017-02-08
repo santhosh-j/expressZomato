@@ -1,0 +1,8 @@
+[06 02 2017 10:10:47.851] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
+[06 02 2017 10:12:03.582] [DEBUG] - Inside user view
+[06 02 2017 10:12:19.384] [DEBUG] - Inside user post
+[06 02 2017 10:12:29.850] [DEBUG] - Inside user update
+[06 02 2017 10:15:44.083] [DEBUG] - Inside user view
+[06 02 2017 11:39:30.211] [DEBUG] - Mongoose is now disconnected..!
+[06 02 2017 11:40:06.321] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
+[06 02 2017 11:45:10.279] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
