@@ -12,7 +12,7 @@ class CardComponent extends React.Component {
       buttonName: 'Add to favorite',
       buttonColor: 'green',
       updateButtonColor: 'green',
-      comments: '',
+      comments: 'Add Comments',
       deleteButton: 'Delete',
       updateButton: 'Update'
     }
@@ -73,6 +73,7 @@ class CardComponent extends React.Component {
   }
   render() {
     let f = this.props.fav;
+    let comments1 = 'Add Comments';
     let add = '';
     let update = '';
     let del = '';
@@ -80,7 +81,7 @@ class CardComponent extends React.Component {
     if(f === 'favorite') {
       add = <ButtonComponent click={this.addRestaurant.bind(this)} color={this.state.buttonColor || 'green'}
         name={this.state.buttonName} iconName='heart' />
-      text = <Input type='text' fluid placeholder='Add Comments' value={this.state.comments}
+      text = <Input type='text' fluid placeholder={comments1}
          onChange={this.onChangeComments.bind(this)} />
     }
     else {
