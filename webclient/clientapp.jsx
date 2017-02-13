@@ -1,45 +1,29 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-var ParentComponent = require('./components/sample/index.jsx');
-import Child from './components/sample/child.jsx';
-class MainComponent extends React.Component {
-    constructor() {
-        super();
-    }
-    getResturantDataFromZomato (cusine)
-    {
+var React = require('react');
+var ReactDOM = require('react-dom');
+var {browserHistory, Route, Router, IndexRoute} = require('react-router');
+var Favourties = require('./components/zomato/favourites');
+var NavBar = require('./components/NavBar');
+var About = require('./components/About');
+var Home = require('./components/clientapp');
+var login = require('./components/login');
+var Favourites = require('./components/zomato/favourites')
 
-      $.ajax({
-
-         url:"https://developers.zomato.com/api/v2.1/search?entity_id=1&entity_type=city&q="+cuisine+"&count=10",
-         type:'GET',
-         beforeSend: function (request)
-                     {
-                         request.setRequestHeader("user-key", "9351c23066e0ae833d7602c214e1ae98");
-                     },
-        success: function(data)
-        {
-          console.log('Successfully got JSON from Zomato' + data);
-
-        }.bind(this),
-        error: function(err)
-        {
-          console.log('error occurred on AJAX');
-          console.log(err);
-        }.bind(this)
-       });
-
-    }
-    render() {
-        return (
-            <div>
-                <h1>Hello From ReactP</h1>
-                <h1>Hello From Santhosh</h1>
-                <ParentComponent/>
-            </div>
-        );
-    }
-}
-
+var MainComp = React.createClass({
+  render:function(){
+    return(
+      <div>
+      <NavBar/>
+      <br/><br/><br/><br/>
+        {this.props.children}
+      </div>
+    );
+  }
+})
 ReactDOM.render(
-    <ParentComponent/>, document.getElementById('mountapp'));
+   <Router history={browserHistory}>
+     <Route path='/' component={login}/>
+     <Route component={MainComp}>
+         <Route path='/home' component={Home}/>
+         <Route path="/favourites" component={Favourites}/>
+     </Route>
+   </Router>, document.getElementById('mountapp'));

@@ -1,11 +1,13 @@
 const mong = require('mongoose');
 
 var schema = new mong.Schema({
-  resId: String,
-  resName: String,
-  resLocation: String,
-  resCuisine: String,
-  comments: String
+  name: String,
+  address: { type: String, unique: true},
+  cuisines: String,
+  costForTwo: Number,
+  comments: String,
+  ratings: Number,
+  image: String
 });
 
 var restaurants = mong.model('restaurants', schema);

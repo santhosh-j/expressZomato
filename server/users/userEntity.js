@@ -1,7 +1,7 @@
 const mong = require('mongoose');
 
-var schema = new mong.Schema({
-  userName: String,
+var schema = new mong.Schema( {
+  username: String,
   password: String
 });
 
