@@ -12,7 +12,7 @@ class CardComponent extends React.Component {
       buttonName: 'Add to favorite',
       buttonColor: 'green',
       updateButtonColor: 'green',
-      comments: 'Add Comments',
+      comments: '',
       deleteButton: 'Delete',
       updateButton: 'Update'
     }

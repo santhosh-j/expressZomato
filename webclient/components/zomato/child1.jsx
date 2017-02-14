@@ -37,7 +37,8 @@ class Child1 extends React.Component {
           <div className='ui center aligned grid' style={{marginTop:2+'%'}}>
             <Input focus placeholder='city' onChange={this.onCityChange}/>
             <Input focus placeholder='cuisine' onChange={this.onCuisineChange}/>
-            <GrandChild city={this.state.city} cuisine={this.state.cuisine} onObjectChange={this.onObjectChangeChild1.bind(this)} />
+            <GrandChild city={this.state.city} cuisine={this.state.cuisine}
+               onObjectChange={this.onObjectChangeChild1.bind(this)} />
           </div>
             <GrandChild2 Obj={this.state.Obj} />
         </div>

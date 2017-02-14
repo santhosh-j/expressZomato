@@ -24,6 +24,7 @@ ReactDOM.render(
      <Route path='/' component={login}/>
      <Route component={MainComp}>
          <Route path='/home' component={Home}/>
+          <Route path='/about' component={About}/>
          <Route path="/favourites" component={Favourites}/>
      </Route>
    </Router>, document.getElementById('mountapp'));

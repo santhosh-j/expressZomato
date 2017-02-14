@@ -1,0 +1,175 @@
+[13 02 2017 04:02:11.440] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
+[13 02 2017 04:26:40.978] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
+[13 02 2017 04:34:25.694] [DEBUG] - Inside user view
+[13 02 2017 04:35:02.141] [DEBUG] - Inside user update
+[13 02 2017 04:35:21.830] [DEBUG] - Inside user update
+[13 02 2017 04:35:38.471] [DEBUG] - Inside user update
+[13 02 2017 04:35:42.818] [DEBUG] - Inside user view
+[13 02 2017 04:40:40.148] [DEBUG] - Inside user view
+[13 02 2017 04:56:13.925] [DEBUG] - Inside user view
+[13 02 2017 05:13:26.170] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 05:13:38.645] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
+[13 02 2017 05:34:30.124] [DEBUG] - Inside user view
+[13 02 2017 05:35:39.750] [DEBUG] - Inside user view
+[13 02 2017 05:39:27.860] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
+[13 02 2017 05:40:30.302] [DEBUG] - Inside user view
+[13 02 2017 05:40:48.330] [DEBUG] - Inside user view
+[13 02 2017 05:49:34.733] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
+[13 02 2017 05:50:10.234] [DEBUG] - Inside user view
+[13 02 2017 05:51:37.930] [DEBUG] - Inside user view
+[13 02 2017 05:53:14.314] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
+[13 02 2017 05:54:42.804] [DEBUG] - Inside user view
+[13 02 2017 05:56:04.657] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
+[13 02 2017 05:56:11.258] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 05:56:22.707] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
+[13 02 2017 05:56:27.260] [DEBUG] - Inside user view
+[13 02 2017 05:57:17.575] [DEBUG] - Inside user view
+[13 02 2017 05:57:56.717] [DEBUG] - Inside user view
+[13 02 2017 05:58:20.633] [DEBUG] - Inside user view
+[13 02 2017 05:58:49.135] [DEBUG] - Inside user update
+[13 02 2017 05:59:18.750] [DEBUG] - Inside user view
+[13 02 2017 05:59:30.658] [DEBUG] - Inside user update
+[13 02 2017 05:59:40.924] [DEBUG] - Inside user update
+[13 02 2017 05:59:51.215] [DEBUG] - Inside user update
+[13 02 2017 06:17:26.036] [DEBUG] - Inside user update
+[13 02 2017 06:17:39.546] [DEBUG] - Inside user update
+[13 02 2017 06:17:49.223] [DEBUG] - Inside user update
+[13 02 2017 06:18:18.029] [DEBUG] - Inside user update
+[13 02 2017 06:18:31.541] [DEBUG] - Inside user view
+[13 02 2017 06:24:27.096] [DEBUG] - Inside user view
+[13 02 2017 06:24:47.841] [DEBUG] - Inside user view
+[13 02 2017 06:34:10.962] [DEBUG] - Inside user view
+[13 02 2017 06:35:04.729] [DEBUG] - Inside user view
+[13 02 2017 06:53:15.355] [DEBUG] - Inside user view
+[13 02 2017 06:56:38.424] [DEBUG] - Inside user update
+[13 02 2017 06:56:38.671] [DEBUG] - Inside user view
+[13 02 2017 06:56:51.695] [DEBUG] - Inside user view
+[13 02 2017 06:58:58.392] [DEBUG] - Inside user view
+[13 02 2017 07:07:40.090] [DEBUG] - Inside user update
+[13 02 2017 07:07:44.506] [DEBUG] - Inside user update
+[13 02 2017 07:26:33.478] [DEBUG] - Inside user view
+[13 02 2017 07:28:07.287] [DEBUG] - Inside user view
+[13 02 2017 07:34:03.813] [DEBUG] - Inside user view
+[13 02 2017 07:37:39.117] [DEBUG] - Inside user view
+[13 02 2017 07:39:41.856] [DEBUG] - Inside user view
+[13 02 2017 07:41:08.464] [DEBUG] - Inside user view
+[13 02 2017 07:45:19.428] [DEBUG] - Inside user view
+[13 02 2017 07:46:21.694] [DEBUG] - Inside user view
+[13 02 2017 07:46:49.664] [DEBUG] - Inside user view
+[13 02 2017 07:47:10.678] [DEBUG] - Inside user update
+[13 02 2017 07:47:29.533] [DEBUG] - Inside user update
+[13 02 2017 08:32:24.379] [DEBUG] - Inside user update
+[13 02 2017 08:32:36.907] [DEBUG] - Inside user update
+[13 02 2017 08:32:48.954] [DEBUG] - Inside user update
+[13 02 2017 08:32:55.746] [DEBUG] - Inside user update
+[13 02 2017 08:33:32.246] [DEBUG] - Inside user view
+[13 02 2017 08:39:39.352] [DEBUG] - Inside user view
+[13 02 2017 09:34:30.350] [DEBUG] - Inside user view
+[13 02 2017 09:38:35.998] [DEBUG] - Inside user update
+[13 02 2017 09:40:17.239] [DEBUG] - Inside user view
+[13 02 2017 09:41:21.813] [DEBUG] - Inside user view
+[13 02 2017 10:02:08.110] [DEBUG] - Inside user view
+[13 02 2017 10:02:23.444] [DEBUG] - Inside user update
+[13 02 2017 10:02:34.540] [DEBUG] - Inside user update
+[13 02 2017 10:02:37.081] [DEBUG] - Inside user update
+[13 02 2017 10:02:39.289] [DEBUG] - Inside user update
+[13 02 2017 10:03:56.183] [DEBUG] - Inside user view
+[13 02 2017 10:04:07.654] [DEBUG] - Inside user update
+[13 02 2017 10:05:04.730] [DEBUG] - Inside user view
+[13 02 2017 10:26:08.919] [DEBUG] - Inside user update
+[13 02 2017 11:04:54.128] [DEBUG] - Inside user view
+[13 02 2017 11:05:09.240] [DEBUG] - Inside user view
+[13 02 2017 11:09:05.023] [DEBUG] - Inside user view
+[13 02 2017 11:10:14.028] [DEBUG] - Inside user view
+[13 02 2017 11:10:36.750] [DEBUG] - Inside user update
+[13 02 2017 11:10:54.218] [DEBUG] - Inside user update
+[13 02 2017 11:11:12.288] [DEBUG] - Inside user update
+[13 02 2017 11:13:48.442] [DEBUG] - Inside user view
+[13 02 2017 11:14:08.800] [DEBUG] - Inside user update
+[13 02 2017 11:25:52.208] [DEBUG] - Inside user view
+[13 02 2017 11:29:59.048] [DEBUG] - Inside user view
+[13 02 2017 11:30:38.224] [DEBUG] - Inside user update
+[13 02 2017 11:32:20.139] [DEBUG] - Inside user update
+[13 02 2017 11:33:25.871] [DEBUG] - Inside user view
+[13 02 2017 11:33:45.276] [DEBUG] - Inside user update
+[13 02 2017 16:03:10.451] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
+[13 02 2017 16:04:03.745] [ERROR] - Error in Mongoose connection:  Error: connection timeout
+    at Db.<anonymous> (/vagrant/express-boilerplate/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:169:17)
+    at emitTwo (events.js:106:13)
+    at Db.emit (events.js:191:7)
+    at Server.listener (/vagrant/express-boilerplate/node_modules/mongodb/lib/db.js:1798:14)
+    at emitOne (events.js:96:13)
+    at Server.emit (events.js:188:7)
+    at Server.<anonymous> (/vagrant/express-boilerplate/node_modules/mongodb/lib/server.js:274:14)
+    at emitOne (events.js:96:13)
+    at Server.emit (events.js:188:7)
+    at Pool.<anonymous> (/vagrant/express-boilerplate/node_modules/mongodb-core/lib/topologies/server.js:335:12)
+    at emitOne (events.js:96:13)
+    at Pool.emit (events.js:188:7)
+    at Connection.<anonymous> (/vagrant/express-boilerplate/node_modules/mongodb-core/lib/connection/pool.js:270:12)
+    at Connection.g (events.js:291:16)
+    at emitTwo (events.js:106:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/vagrant/express-boilerplate/node_modules/mongodb-core/lib/connection/connection.js:185:10)
+    at Socket.g (events.js:291:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:339:8)
+    at ontimeout (timers.js:365:14)
+[13 02 2017 16:06:00.389] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
+[13 02 2017 16:26:39.174] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
+[13 02 2017 16:27:29.757] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
+[13 02 2017 16:35:21.948] [DEBUG] - Inside user view
+[13 02 2017 16:35:26.404] [DEBUG] - Inside user post
+[13 02 2017 16:35:36.675] [DEBUG] - Inside user view
+[13 02 2017 16:36:28.949] [DEBUG] - Inside user post
+[13 02 2017 16:38:48.719] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
+[13 02 2017 16:41:26.060] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
+[13 02 2017 16:41:30.542] [DEBUG] - Inside user post
+[13 02 2017 16:41:39.637] [DEBUG] - Inside user post
+[13 02 2017 16:42:47.892] [DEBUG] - Inside user view
+[13 02 2017 16:42:59.369] [DEBUG] - Inside user update
+[13 02 2017 16:43:11.004] [DEBUG] - Inside user update
+[13 02 2017 16:43:26.547] [DEBUG] - Inside user update
+[13 02 2017 16:43:30.478] [DEBUG] - Inside user view
+[13 02 2017 16:43:45.467] [DEBUG] - Inside user post
+[13 02 2017 16:43:54.393] [DEBUG] - Inside user post
+[13 02 2017 16:44:01.129] [DEBUG] - Inside user view
+[13 02 2017 16:44:16.546] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 16:46:04.262] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
+[13 02 2017 16:50:21.223] [DEBUG] - Inside user view
+[13 02 2017 16:50:27.333] [DEBUG] - Inside user view
+[13 02 2017 16:50:58.267] [DEBUG] - Inside user view
+[13 02 2017 16:59:26.620] [DEBUG] - Inside user view
+[13 02 2017 17:16:41.178] [DEBUG] - Inside user view
+[13 02 2017 17:16:55.517] [DEBUG] - Inside user update
+[13 02 2017 17:24:24.526] [DEBUG] - Inside user view
+[13 02 2017 17:24:47.316] [DEBUG] - Inside user update
+[13 02 2017 17:31:56.391] [ERROR] - Error in Mongoose connection:  Error: connection timeout
+    at Db.<anonymous> (/vagrant/express-boilerplate/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:169:17)
+    at emitTwo (events.js:106:13)
+    at Db.emit (events.js:191:7)
+    at Server.listener (/vagrant/express-boilerplate/node_modules/mongodb/lib/db.js:1798:14)
+    at emitOne (events.js:96:13)
+    at Server.emit (events.js:188:7)
+    at Server.<anonymous> (/vagrant/express-boilerplate/node_modules/mongodb/lib/server.js:274:14)
+    at emitOne (events.js:96:13)
+    at Server.emit (events.js:188:7)
+    at Pool.<anonymous> (/vagrant/express-boilerplate/node_modules/mongodb-core/lib/topologies/server.js:335:12)
+    at emitOne (events.js:96:13)
+    at Pool.emit (events.js:188:7)
+    at Connection.<anonymous> (/vagrant/express-boilerplate/node_modules/mongodb-core/lib/connection/pool.js:270:12)
+    at Connection.g (events.js:291:16)
+    at emitTwo (events.js:106:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/vagrant/express-boilerplate/node_modules/mongodb-core/lib/connection/connection.js:185:10)
+    at Socket.g (events.js:291:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:339:8)
+    at ontimeout (timers.js:365:14)
+[13 02 2017 17:39:27.774] [DEBUG] - Inside user view
+[13 02 2017 17:44:04.654] [DEBUG] - Inside user view
+[13 02 2017 17:47:19.863] [DEBUG] - Inside user view
+[13 02 2017 17:53:01.241] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zomatoDev
+[13 02 2017 18:16:22.141] [DEBUG] - Mongoose is now disconnected..!

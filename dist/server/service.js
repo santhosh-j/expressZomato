@@ -5,6 +5,8 @@ const morgan = require('morgan');
 const mongoose = require('mongoose');
 const config = require('../config/');
 const logger = require('../applogger');
+const passport = require('../authentication/passport');
+const connectflash = require('connect-flash');
 
 function createApp() {
   const app = express();
@@ -19,6 +21,7 @@ function setupStaticRoutes(app) {
 function setupRestRoutes(app) {
   console.log('Inside service setupRestRoutes');
   app.use('/users', require(path.join(__dirname, './users')));
+  app.use('/restaurant', require(path.join(__dirname, './restaurant')));
   //  MOUNT YOUR REST ROUTE HERE
   //  Eg:
 
@@ -49,6 +52,10 @@ function setupMiddlewares(app) {
   app.use(bodyParser.urlencoded({
     extended: false
   }));
+  app.use(require('express-session')({secret:'accesskey'}));
+  app.use(passport.initialize());
+  app.use(passport.session());
+  app.use(connectflash());
 
   const compression = require('compression');
   app.use(compression());
@@ -76,9 +83,20 @@ function setupWebpack(app) {
 
     app.use(webpackHotMiddleware(webpackCompiler));
     app.use(webpackDevMiddleware(webpackCompiler, {
-      noInfo: true,
-      publicPath: webpackConfig.output.publicPath
-    }));
+  noInfo: true,
+  publicPath: webpackConfig.output.publicPath,
+  stats: {
+      colors: true
+  },
+  watchOptions: {
+    aggregateTimeout: 300,
+    poll: 1000
+  }
+}));
+    // app.use(webpackDevMiddleware(webpackCompiler, {
+    //   noInfo: true,
+    //   publicPath: webpackConfig.output.publicPath
+    // }));
   }
   return app;
 }

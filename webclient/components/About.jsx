@@ -12,7 +12,7 @@ render:function()
     					About Us
     				</h2>
     				<p>
-    					This is Gmail Box. It is using gmail API to extract your emails.
+    					This is Foodies App. It is using Zomato API to extract your restaurants.
     				</p>
     				<p>
     					<a className="btn btn-primary btn-large" href="#">Learn more</a>

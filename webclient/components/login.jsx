@@ -1,26 +1,27 @@
-var React = require('react');
-
-var {browserHistory} = require('react-router');
-var Login = React.createClass({
+let React = require('react');
+import { Input } from 'semantic-ui-react';
+import { Button } from 'semantic-ui-react';
+let {browserHistory} = require('react-router');
+let Login = React.createClass({
 getInitialState: function()
 {
- return {username:'',password:'', isLoggedIn:''};
+ return {username: '', password: '', isLoggedIn: ''};
 },
 handleUserName: function(e)
 {
- this.setState({username:e.target.value});
+ this.setState({username: e.target.value});
 },
 handlePassword: function(e)
 {
- this.setState({password:e.target.value});
+ this.setState({password: e.target.value});
 },
 LoginUser: function()
 {
  $.ajax({
-   url:"http://localhost:8080/users/login",
+   url: 'http://localhost:8080/users/login',
    type: 'POST',
    datatype: 'JSON',
-   data:this.state,
+   data: this.state,
    success: function(res)
    {
      console.log(res.responseText);
@@ -28,7 +29,7 @@ LoginUser: function()
    }.bind(this),
    error: function(err)
    {
-     alert("Invalid username or password");
+     alert('Invalid username or password');
      console.log(err.responseText);
    }.bind(this)
  });
@@ -36,15 +37,19 @@ LoginUser: function()
 ,
  render: function(){
    return(
-   <div className="Login">
+   <div className="Login" style={{margin: 'auto', 'background-color': 'lightblue', marginTop: '20px', align: 'center',
+     'text-align': 'center', width: 30 + '%', padding: 10 + 'px'}}>
         <h2 className="text-center">Login</h2>
-        <div className="form-group">
-        <input className="form-control" onChange={this.handleUserName}  placeholder="Enter a User Name..."  type="text" />
+        <div className="form-group" style={{margin: '10px'}}>
+        <Input fluid className="form-control" onChange={this.handleUserName}
+           placeholder="Enter a User Name..." type="text" />
         </div>
-        <div className="form-group">
-        <input className="form-control" onChange={this.handlePassword}  placeholder="Enter a Password..."  type="password" />
+        <div className="form-group" style={{margin: '10px'}}>
+        <Input fluid className="form-control" onChange={this.handlePassword}
+          placeholder="Enter a Password..." type="password" />
         </div>
-        <input className="btn btn-primary btn-block" onClick={this.LoginUser} type="submit" value="Login" />
+        <Input size='large' className="btn btn-primary btn-block" onClick={this.LoginUser}
+           type="submit" value="Login" />
    </div>
 
 

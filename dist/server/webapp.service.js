@@ -1,5 +1,5 @@
 'use strict';
-//const path = require('path');
+const path = require('path');
 
 const service = require('./service');
 
@@ -14,15 +14,14 @@ module.exports = function() {
 
   app = service.setupWebpack(app);
 
-  app = service.setupStaticRoutes(app);
+ app = service.setupStaticRoutes(app);
 
   app = service.setupMiddlewares(app);
 
   app = service.setupRestRoutes(app);
 
-  app = service.setupRestRoutes(app);
-
   service.setupMongooseConnections();
+
 
   return app;
 };
